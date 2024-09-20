@@ -18,17 +18,17 @@ Sales Prediction: Build machine learning and deep learning models to predict fut
 Model Serving: Provide an API interface for serving predictions in real-time.
 
 ## Project Structure
+```
 rossmann_pharma_sales_forecasting/
 │
 ├── data/
 │   └── raw/         # Processed data ready for analysis
-│
 ├── src/
 │   ├── __init__.py        # Makes src a module
 │   ├── load_data.py       # Data Loading functions
 │   ├── clean_data.py      # Data cleaning functions
 │   ├── eda.py             # Functions for exploratory data analysis
-|   ├──utils.py            # Functions to plot visualizations
+|   └──utils.py            # Functions to plot visualizations
 │
 ├── notebooks/             # Jupyter Notebooks for initial analysis
 │   ├── __init__.py
@@ -36,14 +36,15 @@ rossmann_pharma_sales_forecasting/
 │   └── model_building.ipynb
 │
 ├── scripts/
-│   ├─  __init__.py
+│   └── __init__.py
 │
 ├── tests/               # Tests for the modules
-│   ├── __init__.py
+│   └── __init__.py
 │
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project README
 └── LICENSE              # License for the project
+```
 
 ## Installation
 To run this project, follow these steps to set up your environment:
