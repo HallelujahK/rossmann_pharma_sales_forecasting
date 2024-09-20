@@ -256,7 +256,9 @@ if __name__ == "__main__":
     from clean_data import DataCleaner
 
     loader = DataLoader()
-    loader.load_data('../resources/Data/train.csv', '../resources/Data/test.csv', '../resources/Data/store.csv')
+    loader.load_data('C:/Users/Lidya/Downloads/Week-4/rossmann_pharma_sales_forecasting/data/raw/train.csv', 
+                     'C:/Users/Lidya/Downloads/Week-4/rossmann_pharma_sales_forecasting/data/raw/test.csv', 
+                     'C:/Users/Lidya/Downloads/Week-4/rossmann_pharma_sales_forecasting/data/raw/store.csv')
     merged_train, merged_test = loader.merge_data()
 
     cleaner = DataCleaner()
