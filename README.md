@@ -50,9 +50,13 @@ rossmann_pharma_sales_forecasting/
 To run this project, follow these steps to set up your environment:
 
 1. **Clone the repository**: 
-``` git clone https://github.com/your-username/rossmann_pharma_sales_forecasting.git ```
+``` 
+git clone https://github.com/your-username/rossmann_pharma_sales_forecasting.git 
+```
 2. **Navigate to the project directory**:
-```cd rossmann_pharma_sales_forecasting```
+```
+cd rossmann_pharma_sales_forecasting
+```
 3. **Create a virtual environment**:
 ```python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
